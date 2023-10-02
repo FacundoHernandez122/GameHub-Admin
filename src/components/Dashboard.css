@@ -1,0 +1,82 @@
+.content_dashboard{
+display: flex;
+margin-top: 57px;
+
+}
+
+.table_order{
+  border-radius: 5px;
+  background-color: #ececec;
+      overflow-y: scroll;
+    
+  padding: 0;
+     margin: 0;
+    
+  
+}
+
+.line_bar {
+position: relative;
+background-color: #ececec;
+}
+
+.welcome_admin{
+    height: 70px;
+    width: auto;
+}
+.user_icon {
+    top: 12px;
+    right: 16em;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    border: 3px #fca311 solid;
+  }
+  
+  .user_icon img {
+    width: 40px;
+  }
+  
+  .user_icon img:hover {
+    scale: 1.1;
+  }
+
+  .logo_icon {
+    height: 30%;
+    width: 50%;
+    cursor: pointer;
+    top: 2.3em;
+    left: 3.5em;
+    position: absolute;
+  }
+  
+  .logo_icon img {
+    height: 40px;
+    cursor: pointer;
+    top: 5em;
+    left: 2%;
+    position: absolute;
+    top: -22px;
+    left: 100px;
+  }
+.admin_icon{
+    top: 12px;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    left: 88%
+  }
+  
+.admin_icon img {
+    width: 40px;
+  }
+  
+.admin_icon img:hover {
+    scale: 1.1;
+  }

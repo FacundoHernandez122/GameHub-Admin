@@ -1,0 +1,93 @@
+.box1{
+    color: white;
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 7px rgba(136, 136, 136, 0.603);
+    
+}
+.box1:hover {
+    border-radius: 1rem;;
+    cursor: pointer; 
+    transform: scale(1.10); 
+    transition: all 0.7s ease; 
+}
+
+.box2{
+    color:white;
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    background-image: linear-gradient(-20deg, #616161 0%,#7b98ab 100%);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 7px rgba(136, 136, 136, 0.603);
+    
+}
+.box2:hover {
+    border-radius: 1rem;;
+    cursor: pointer; 
+    transform: scale(1.10); 
+    transition: all 0.7s ease; 
+}
+.box3{
+    color:rgb(0, 0, 0);
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    background-image: linear-gradient(to top, #FCA311 0%, #eacda3 100%);
+    margin: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 7px rgba(136, 136, 136, 0.603);
+    
+}
+.box3:hover {
+    border-radius: 1rem;;
+    cursor: pointer; 
+    transform: scale(1.10); 
+    transition: all 0.7s ease; 
+}
+.box4{
+    color:rgb(0, 0, 0);
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 7px rgba(136, 136, 136, 0.603);
+}
+.box4:hover {
+    border-radius: 1rem;;
+    cursor: pointer; 
+    transform: scale(1.10); 
+    transition: all 0.7s ease; 
+}
+
+.current_box{
+    margin-top: 8px;
+    height: auto;
+}
+.current_box h3{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.current_box p{
+    font-size: 35px;
+    padding: 5px;
+}
+

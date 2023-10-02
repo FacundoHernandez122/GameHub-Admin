@@ -1,0 +1,63 @@
+.container-center {
+  display: flex;
+  justify-content: center;
+  background-color: #7a7875a9;
+}
+
+.content_edit{
+  margin: 20px;
+}
+.edit_user {
+  width: 800px;
+  height: 400px;
+  padding: 30px;
+  background-color: #ffffff;
+  font-weight: bold;
+  
+}
+
+.save_button_user{
+  font-size: 15px;
+  margin-left: 68px;
+  width: 45%;
+  height: 45px;
+  color: #14213d;
+  background-color: #ff9d00;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.save_button:hover {
+  font-weight: bold;
+  transition: ease-in 0.5s;
+  transform: scale(1.05);
+  background-color: #ff9d00;
+  color: #444343;
+}
+.input_name {
+  margin-left: 18px;
+  padding: 5px;
+  border-radius: 1rem;
+  border: none;
+}
+
+.input_last{
+  margin-left:19px;
+  padding: 5px;
+  border: none;
+  border-radius: 1rem;
+}
+.input_email{
+  margin-left: 55px;
+  padding: 5px;
+  border: none;
+  border-radius: 1rem;
+}
+.input_username{
+  margin-left: 22px;
+  padding: 5px;
+  border: none;
+  border-radius: 1rem;
+}

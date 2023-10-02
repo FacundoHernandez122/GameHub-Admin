@@ -1,0 +1,345 @@
+.login_admin_content {
+
+  background: #14213d;
+  background: linear-gradient(
+    56deg,
+    #14213d 2%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(20, 33, 61, 1) 87%
+  );
+  box-shadow: 0px 0px 9px 3px #14213d;
+  -webkit-box-shadow: 0px 0px 3px 1px #14213d;
+  -moz-box-shadow: 0px 0px 3px 5px #14213d;
+  color: #e5e5e5;
+
+    height: 100vh;
+  
+    width: 100vw;
+  
+  }
+  
+  .wrapper {
+  
+    margin-top: 150px;
+  
+    position: relative;
+  
+    width: 600px;
+  
+    height: fit-content;
+  
+    background: rgba(23, 22, 22, 0.198);
+  
+    border-radius: 20px;
+  
+    backdrop-filter: blur(30px);
+  
+    border: 1px solid #14213d;
+  
+    padding-left: 4.5em;
+  
+    padding-right: 4.5em;
+  
+    box-shadow: 0px 0px 20px 1px rgb(27, 26, 26);
+  
+  }
+  
+   
+  
+  .wrapper.active {
+  
+    height: 520px;
+  
+  }
+  
+   
+  
+  .wrapper .login-box {
+  
+    width: 100%;
+  
+    padding: 40px;
+  
+  }
+  
+   
+  
+  .wrapper .login-box.login {
+  
+    transition: transform 0.18s ease;
+  
+    transform: translateX(0);
+  
+  }
+  
+  .wrapper.active .login-box.login {
+  
+    transition: none;
+  
+    transform: translateX(-400px);
+  
+  }
+  
+  .wrapper.login-box .register {
+  
+    position: absolute;
+  
+    transition: none;
+  
+    transform: translateX(400px);
+  
+  }
+  
+   
+  
+  .wrapper.active .login-box.login {
+  
+    transition: transform 0.18s ease;
+  
+    transform: translateX(0);
+  
+  }
+  
+   
+  
+  .wrapper .icon-close {
+  
+    top: 0;
+  
+    right: 0;
+  
+    width: 45px;
+  
+    font-size: 2em;
+  
+    color: #fff;
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    border-bottom-left-radius: 20px;
+  
+    cursor: pointer;
+  
+  }
+  
+  title {
+  
+    font-size: 2em;
+  
+    color: #fc8d0d;
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  /* con el margin fue que separe las lineas de email y contrasena para dejar espacio al movimiento al hacer click */
+  
+  .input-box {
+  
+    position: relative;
+  
+    width: 100%;
+  
+    height: 50px;
+  
+    border-bottom: 2px solid #e5e5e5;
+  
+    margin: 30px 0;
+  
+  }
+  
+   
+  
+  .input-box label {
+  
+    position: absolute;
+  
+    top: 50%;
+  
+    left: 5px;
+  
+    transform: translateY(-50%);
+  
+    font-size: 1em;
+  
+    color: #e5e5e5;
+  
+    font-weight: 500;
+  
+    pointer-events: none;
+  
+    transition: 0.5s; /* para suavizar la transicion al hacer click */
+  
+  }
+  
+  /* con esto genero el movimiento de las palabras hacia arriba */
+  
+  .input-box input:focus ~ label,
+  
+  .input-box input:valid ~ label {
+  
+    top: -5px;
+  
+  }
+  
+  /* agradamiento de las cajas para escribir */
+  
+  .input-box input {
+  
+    width: 100%;
+  
+    height: 100%;
+  
+    background: transparent;
+  
+    border: none;
+  
+    outline: none;
+  
+    font-size: 1em;
+  
+    color: #e5e5e5;
+  
+    font-weight: 600;
+  
+    padding: 0 35px 0 5px;
+  
+  }
+  
+  .input-box .icon {
+  
+    position: absolute;
+  
+    right: 8px;
+  
+    font-size: 1.2em;
+  
+    color: #e5e5e5;
+  
+    line-height: 57px;
+  
+  }
+  
+   
+  
+  .remember-forgot {
+  
+    font-size: 0.9em;
+  
+    color: #e5e5e5;
+  
+    font-weight: 500;
+  
+    margin: -15px 0 15px;
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+  }
+  
+  /* chackbox de recordar */
+  
+  .remember-forgot label input {
+  
+    accent-color: #161616;
+  
+    margin-right: 3px;
+  
+  }
+  
+   
+  
+  .remember-forgot a {
+  
+    color: #e5e5e5;
+  
+  }
+  
+  .remember-forgot a:hover {
+  
+    text-decoration: underline;
+  
+  }
+  
+  /* boton de login */
+  
+  .boton {
+  
+    width: 100%;
+  
+    height: 45px;
+  
+    color: #14213d;
+  
+    background-color: #ff9d00;
+  
+    border: none;
+  
+    outline: none;
+  
+    border-radius: 6px;
+  
+    cursor: pointer;
+  
+    font-size: 1em;
+  
+    font-weight: 600;
+  
+  }
+  
+  .boton:hover {
+  
+    border: 1px solid #fca211c3;
+  
+    transition: ease-in 0.5s;
+  
+    transform: scale(1.05);
+  
+    background-color: #ff9d00;
+  
+    color: #444343;
+  
+  }
+  
+   
+  
+  .login-register {
+  
+    font-size: 0.9em;
+  
+    color: #e5e5e5;
+  
+    text-align: center;
+  
+    font-weight: 500;
+  
+    margin: 25px 0 10px;
+  
+  }
+  
+   
+  
+  .login-register p a {
+  
+    color: #fc8d0d;
+  
+    text-decoration: none;
+  
+    font-weight: 600;
+  
+  }
+  
+   
+  
+  .login-register p a:hover {
+  
+    text-decoration: underline;
+  
+  }

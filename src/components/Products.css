@@ -1,0 +1,69 @@
+ 
+
+.recent_order {
+
+    max-width: 1000vh;
+
+    overflow-x: auto;
+    
+
+}
+
+.table {
+
+    user-select: none;
+
+    border-collapse: collapse;
+
+}
+.table_styles{
+    border-radius: 10px;
+
+}
+
+ 
+
+thead {
+
+    background-color:#14213D;
+
+    color: white;
+
+}
+
+ 
+
+.products_title{
+
+    padding: 10px;
+
+}
+
+ 
+
+.tbl_scroll{
+border-radius: 5px;
+background-color: #ececec;
+    overflow-y: scroll;
+    height: 350px;
+padding: 0;
+   margin: 0;
+   height: 700px;
+
+}
+
+ 
+
+.add_button{
+
+    background-color: #FCA311;
+
+    width: 100%;
+
+    padding: 5px;
+
+}
+.add_button:hover{
+    background-color: #14213D;
+    color: white;
+}

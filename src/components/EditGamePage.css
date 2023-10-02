@@ -1,0 +1,85 @@
+.container-center {
+    display: flex;
+    background-color: #ececec;
+  }
+  .side_edit {
+    background-image: url(../../public/back_side.jpg);
+    background-size: cover;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    z-index: 1; 
+    filter: blur(5px);
+    filter: grayscale(80%);
+    padding-left: 12px;
+}
+
+  .edit_game {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.516);
+    margin-top: 60px;
+    margin-left: 280px;
+    font-weight: bold;
+  }
+
+
+  .save_game {
+    margin-left: 11px;
+    margin-top: 15px;
+    border: none;
+  }
+
+  .save_button_game{
+    font-size: 15px;
+    margin-left: 60px;
+    width: 47%;
+    height: 45px;
+    color: #14213d;
+    background-color: #ff9d00;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+
+  .save_button:hover {
+    font-weight: bold;
+    transition: ease-in 0.5s;
+    transform: scale(1.05);
+    background-color: #ff9d00;
+    color: #444343;
+  }
+
+  .title_edit{
+    font-size: 4rem;
+    color: #14213d;
+    font-weight: bold;
+  }
+
+  .content_edit{
+    margin: 15px;
+    font-size: 15px;
+  }
+
+  .input_name {
+    margin-left: 16px;
+    padding: 5px;
+    border-radius: 1rem;
+    border: none;
+  }
+  .input_price {
+    margin-left: 60px;
+    padding: 5px;
+    border-radius: 1rem;
+    border: none;
+  }
+  .input_stock {
+    margin-left: 60px;
+    padding: 5px;
+    border-radius: 1rem;
+    border: none;
+  }

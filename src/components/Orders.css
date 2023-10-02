@@ -1,0 +1,18 @@
+.table_order {
+   margin-top: 20px;
+   width: 91.5%;
+   margin-left: 42px;
+   background-color: white;
+}
+
+.status_orders{
+   width: 200px;
+   padding: 0px;
+   margin: 0px;
+}
+
+.status_select{
+   padding: 5px;
+   border-radius: 1em;
+   border: none;
+}
