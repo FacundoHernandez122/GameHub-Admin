@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 import { useParams } from "react-router-dom";
 
 const EditGamePage = () => {
-  const { gameId } = useParams(); // Get the game ID from the URL
+  const { gameId } = useParams();
   const [game, setGame] = useState(null);
   const baseURL = import.meta.env.VITE_API_BASE_URL;
   const [newGameName, setNewGameName] = useState("");
@@ -15,7 +15,6 @@ const EditGamePage = () => {
   const [newGameStock, setNewGameStock] = useState(0);
 
   useEffect(() => {
-    // Fetch the game data based on gameId
     axios.get(`${baseURL}/admin/${gameId}`).then((response) => {
       const gameData = response.data;
       setGame(gameData);
@@ -25,7 +24,7 @@ const EditGamePage = () => {
       setNewGameStock(gameData.stock);
       console.log("Game data received:", gameData);
     });
-  }, [gameId]); // gameId should be the only dependency
+  }, [gameId]);
 
   const handleSave = async () => {
     try {

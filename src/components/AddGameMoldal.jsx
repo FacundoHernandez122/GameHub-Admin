@@ -147,34 +147,6 @@ function AddGameModal({ onSave }) {
                 />
               </div>
 
-              {/*               <div className="mb-3">
-
-                <label htmlFor="img" className="form-label">
-
-                  Image URL
-
-                </label>
-
-                <input
-
-                  type="text"
-
-                  className="form-control"
-
-                  id="img"
-
-                  name="img"
-
-                  value={formData.img}
-
-                  onChange={handleChange}
-
-                  required
-
-                />
-
-              </div> */}
-
               <div className="mb-3">
                 <label htmlFor="stock" className="form-label">
                   Stock
@@ -191,36 +163,6 @@ function AddGameModal({ onSave }) {
                 />
               </div>
 
-              {/*               <div className="mb-3">
-
-                <label htmlFor="trending" className="form-label">
-
-                  Trending
-
-                </label>
-
-                <select
-
-                  className="form-control"
-
-                  id="trending"
-
-                  name="trending"
-
-                  value={formData.trending}
-
-                  onChange={handleChange}
-
-                >
-
-                  <option value={true}>true</option>
-
-                  <option value={false}>false</option>
-
-                </select>
-
-              </div> */}
-
               <div className="mb-3">
                 <label htmlFor="category" className="form-label">
                   Category
@@ -235,58 +177,6 @@ function AddGameModal({ onSave }) {
                   onChange={handleChange}
                 />
               </div>
-
-              {/*               <div className="mb-3">
-
-                <label htmlFor="img2" className="form-label">
-
-                  Second Image URL
-
-                </label>
-
-                <input
-
-                  type="text"
-
-                  className="form-control"
-
-                  id="img2"
-
-                  name="img2"
-
-                  value={formData.img2}
-
-                  onChange={handleChange}
-
-                />
-
-              </div> */}
-
-              {/*               <div className="mb-3">
-
-                <label htmlFor="video" className="form-label">
-
-                  Video URL
-
-                </label>
-
-                <input
-
-                  type="text"
-
-                  className="form-control"
-
-                  id="video"
-
-                  name="video"
-
-                  value={formData.video}
-
-                  onChange={handleChange}
-
-                />
-
-              </div> */}
 
               <div className="mb-3">
                 <label htmlFor="metacritic" className="form-label">
